@@ -132,6 +132,10 @@ header .content-wrapper {
   margin: 0;
 }
 
+header {
+  padding: 15px 0;
+}
+
 .header-divider {
   width: 100%;
   height: 1px;
@@ -153,28 +157,36 @@ header nav ul {
   list-style: none;
 }
 
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
 
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
 }
 
-.contact {
-
+footer .contact {
+  margin-bottom: 50px;
 }
 
-.social {
-
-}
-
-.social-icons { 
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-flow: row wrap;
 }
 
-.copyright {
+footer .social-icons { 
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+footer .copyright {
   margin:  20px 0;
 }
 
@@ -223,11 +235,14 @@ aside .content-wrapper {
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
-  width: 65%;
 }
 
 .features .content-wrapper {
 
+}
+
+.features p {
+  margin: 0;
 }
 
 .feature-items {

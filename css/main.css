@@ -87,6 +87,151 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ---------- BASE STYLES ---------- */
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+
+
+
+/* ---------- HEADER & FOOTER STYLES ---------- */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+header .content-wrapper {
+
+}
+
+.header-divider {
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+
+}
+
+.copyright {
+
+}
+
+/* ---------- HOME - HERO ---------- */
+
+.hero-area {
+
+}
+
+.hero-area .content-wrapper{
+
+}
+/* ---------- HOME - EMAIL SIGNUP ---------- */
+
+.email-signup
+
+.email-signup .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.input {
+
+}
+
+/* ---------- HOME - FEATURES ---------- */
+
+.featurs {
+
+}
+
+.featurs .content-wrapper {
+
+}
+
+.feature-items {
+
+}
+
+.feature-item-description {
+
+
+}
+
+/* ---------- HOME - REVIEWS ---------- */
+
+.reviews {
+
+}
+
+.reviews .content-wrapper {
+
+}
+
+.review-description {
+  
+}
+
+
+/* ---------- ABOUT - MISSION ---------- */
+
+/* ---------- ABOUT - MAP ---------- */
+
+/* ---------- ABOUT - CONTACT US ---------- */
+
+/* ---------- FAQ - FAQS ---------- */
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

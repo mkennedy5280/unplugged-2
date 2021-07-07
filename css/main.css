@@ -127,10 +127,11 @@ header .content-wrapper {
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 .header-divider {
-
+  width: 100%;
 }
 
 header nav {
@@ -138,6 +139,7 @@ header nav {
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
@@ -150,7 +152,7 @@ header nav ul {
 
 
 footer .content-wrapper {
-
+  width: 55%;
 }
 
 .contact {
@@ -182,6 +184,7 @@ footer .content-wrapper {
 }
 
 .hero-area .content-wrapper{
+  width: 90%;
 
 }
 /* ---------- HOME - EMAIL SIGNUP ---------- */
@@ -194,7 +197,7 @@ aside {
 }
 
 .email-signup .content-wrapper {
-
+  width: 90%;
 }
 
 .form-description {
@@ -211,15 +214,16 @@ aside {
 
 /* ---------- HOME - FEATURES ---------- */
 
-.featurs {
+.features {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
+  width: 65%;
 }
 
-.featurs .content-wrapper {
-
+.features .content-wrapper {
+  width: 90%;
 }
 
 .feature-items {
@@ -244,7 +248,11 @@ aside {
 }
 
 .reviews .content-wrapper {
+  width: 90%;
+}
 
+.reviews h3 {
+  width: 50%;
 }
 
 .review-description {

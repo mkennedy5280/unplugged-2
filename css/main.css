@@ -114,31 +114,40 @@ h4 {
 
 /* ---------- HEADER & FOOTER STYLES ---------- */
 
-header {
+header,
+footer {
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
 
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+header nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
-
-footer {
-
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  list-style: none;
 }
+
 
 footer .content-wrapper {
 
@@ -152,8 +161,11 @@ footer .content-wrapper {
 
 }
 
-.social-icons {
-
+.social-icons { 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .copyright {
@@ -163,7 +175,10 @@ footer .content-wrapper {
 /* ---------- HOME - HERO ---------- */
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .hero-area .content-wrapper{
@@ -171,7 +186,12 @@ footer .content-wrapper {
 }
 /* ---------- HOME - EMAIL SIGNUP ---------- */
 
-.email-signup
+aside {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+}
 
 .email-signup .content-wrapper {
 
@@ -192,7 +212,10 @@ footer .content-wrapper {
 /* ---------- HOME - FEATURES ---------- */
 
 .featurs {
-
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .featurs .content-wrapper {
@@ -200,7 +223,10 @@ footer .content-wrapper {
 }
 
 .feature-items {
-
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .feature-item-description {
@@ -211,7 +237,10 @@ footer .content-wrapper {
 /* ---------- HOME - REVIEWS ---------- */
 
 .reviews {
-
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .reviews .content-wrapper {
@@ -219,7 +248,7 @@ footer .content-wrapper {
 }
 
 .review-description {
-  
+
 }
 
 

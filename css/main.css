@@ -100,7 +100,7 @@ header,
 footer {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -483,6 +483,19 @@ aside .content-wrapper {
   .contact-content {
     display: flex;
     justify-content: space-between;
+  }
+
+  /* FAQ */
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
   }
 }
 

@@ -98,6 +98,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #e2e3ed;
+  text-align: left;
 }
  
 ul, 
@@ -109,22 +110,19 @@ a {
   color: #e2e3ed;
   text-decoration: none;
 }
-
-h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3.73em;
-
-}
  
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
+  font-weight: 500;
+  font-size: 1.875em;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-weight: 500;
+  font-size: 1.125em;
+  margin: 20px 0;
 }
  
 p {
@@ -149,6 +147,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -167,6 +166,7 @@ header {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+  background: #3a3a3a; 
 }
 
 header nav {
@@ -175,6 +175,9 @@ header nav {
   align-content: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -221,14 +224,16 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-flow: row wrap;
 }
 
-.hero-area .content-wrapper{
-
-
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500; 
+  line-height: 1.2; 
 }
+
 /* ---------- HOME - EMAIL SIGNUP ---------- */
 
 aside {
@@ -236,22 +241,33 @@ aside {
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
-aside .content-wrapper {
-
+aside h3 {
+  font-size: 1.875em;
 }
 
-.form-description {
-
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
 }
-
-.form {
-
-}
-
-.input {
-
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ---------- HOME - FEATURES ---------- */
@@ -265,6 +281,7 @@ aside .content-wrapper {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 .features-items {
@@ -285,22 +302,17 @@ aside .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-}
-
-.reviews .content-wrapper {
-
+  background-color: #2a423a;
 }
 
 .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1;
 }
 
 .reviews h3 {
   width: 50%;
-}
-
-.review-description {
-
+  margin: 20px 0;
 }
 
 /* ---------- ABOUT - MISSION ---------- */
@@ -310,6 +322,7 @@ aside .content-wrapper {
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 /* ---------- ABOUT - MAP ---------- */
@@ -325,10 +338,7 @@ aside .content-wrapper {
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
-
-}
-
-.contact-section .content-wrapper {
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -343,6 +353,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -355,6 +366,7 @@ aside .content-wrapper {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
@@ -469,7 +481,6 @@ aside .content-wrapper {
 
   header nav {
     width: 20%;
-    text-transform: uppercase;
   }
 
   header nav ul {

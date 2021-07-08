@@ -89,26 +89,6 @@ textarea {
 
 /* ---------- BASE STYLES ---------- */
 
-html {
-  font-size: 18px;
-}
-
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -233,7 +213,6 @@ aside .content-wrapper {
 .features {
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-flow: row wrap;
 }
 
@@ -242,16 +221,16 @@ aside .content-wrapper {
   margin: 0;
 }
 
-.feature-items {
+.features-items {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
 }
 
-.feature-item-description {
-
-
+.features article {
+    width: 63%;
+    margin: 30px 0;
 }
 
 /* ---------- HOME - REVIEWS ---------- */
@@ -429,8 +408,85 @@ aside .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* Tablet styles */
+@media only screen and (min-width: 768px) {
+  
+  /* BASE STYLES */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+  
+  /* HEADER */
+  header {
+    padding: 35px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* EMAIL SIGNUP */
+  aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin: 50PX 0;
+  }
+
+  .form,
+  .form-description {
+    width: 40%;
+  }
+
+  /* FEATURES */
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+    
+  .features .features-item-description {
+     width: 50%;
+  }
+
+  /* FOOTER */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .copyright {
+    text-align: center;
+}
+
+
+
+
+
+
+}
+
+
+
+/* Desktop styles */
+@media only screen and (min-width: 1200px) {
+
 }
 
 @media print,

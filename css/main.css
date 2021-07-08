@@ -238,12 +238,15 @@ aside .content-wrapper {
 .reviews {
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-flow: row wrap;
 }
 
 .reviews .content-wrapper {
 
+}
+
+.reviews h2 {
+    margin-bottom: 40px;
 }
 
 .reviews h3 {
@@ -466,7 +469,15 @@ aside .content-wrapper {
   .features .features-item-description {
      width: 50%;
   }
+  /* HOME - REVIEWS */
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .reviews article div {
+    width: 49%;
+  }
   /* ABOUT - MISSION */
   .mission-content {
     display: flex;
@@ -499,11 +510,23 @@ aside .content-wrapper {
   }
 }
 
-
-
 /* Desktop styles */
 @media only screen and (min-width: 1200px) {
+  /* BASE STYLES */
+  .content-wrapper {
+    max-width: 960px;
+    margin: 100px 0;
+  }
 
+  /* HERO */
+  .hero-area .content-wrapper {
+    margin-top: 50px;
+  }
+
+  /* FEATURES */
+  .features article {
+    flex-basis: 33%;
+  }
 }
 
 @media print,

@@ -263,14 +263,6 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
-
-}
-
-.mission-content {
-
-}
-
 /* ---------- ABOUT - MAP ---------- */
 
 .map {
@@ -439,7 +431,17 @@ aside .content-wrapper {
     display: none;
   }
 
-  /* EMAIL SIGNUP */
+  /* FOOTER */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .copyright {
+    text-align: center;
+}
+
+  /* HOME - EMAIL SIGNUP */
   aside .content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -452,7 +454,7 @@ aside .content-wrapper {
     width: 40%;
   }
 
-  /* FEATURES */
+  /* HOME - FEATURES */
   .features article {
     display: flex;
     justify-content: center;
@@ -465,21 +467,23 @@ aside .content-wrapper {
      width: 50%;
   }
 
-  /* FOOTER */
-  .footer-content {
+  /* ABOUT - MISSION */
+  .mission-content {
     display: flex;
     justify-content: space-between;
-}
+    align-items: center;
+    padding-top: 20px;
+  }
 
-  .copyright {
-    text-align: center;
-}
+  .mission-content p {
+    width: 45%;
+  }
 
-
-
-
-
-
+  /* ABOUT - CONTACT */
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 

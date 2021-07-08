@@ -88,7 +88,54 @@ textarea {
    ========================================================================== */
 
 /* ---------- BASE STYLES ---------- */
+ /* BASE STYLES */
 
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+}
+ 
+ul, 
+ol {
+  list-style: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.73em;
+
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+ 
+p {
+  font-size: 1.125em;
+  line-height: 1.285;
+}
+ 
+address {
+  font-style: normal;
+ 
+}
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -134,7 +181,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  list-style: none;
 }
 
 footer {
@@ -405,8 +451,7 @@ aside .content-wrapper {
 
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
-  
-  /* BASE STYLES */
+ 
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -424,6 +469,7 @@ aside .content-wrapper {
 
   header nav {
     width: 20%;
+    text-transform: uppercase;
   }
 
   header nav ul {

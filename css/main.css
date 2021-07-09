@@ -132,8 +132,16 @@ p {
  
 address {
   font-style: normal;
- 
 }
+
+img { 
+  width: 100%;
+}
+ 
+figure {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -162,6 +170,14 @@ header {
   padding: 15px 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   width: 100%;
   height: 1px;
@@ -184,6 +200,8 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-left: 0;
+  margin: 0 0 15px 0;
 }
 
 footer {
@@ -197,6 +215,7 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
 }
 
 footer .contact {
@@ -225,8 +244,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/woman-walking-on-bridge-in-forest.jpg') center no-repeat #333;
+  background: url('../img/woman-walking-on-bridge-in-forest.jpg');
   background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -244,10 +265,6 @@ aside {
   align-content: center;
   flex-flow: row wrap;
   background-color: #527158;
-}
-
-aside h3 {
-  font-size: 1.875em;
 }
 
 input[type=text] {
@@ -286,6 +303,7 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
+  font-size: .875em;
 }
 
 .features-items {
@@ -315,7 +333,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-  width: 50%;
+  width: 52%;
   margin: 20px 0;
 }
 
@@ -491,6 +509,14 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
   .header-divider {
     display: none;
   }
@@ -499,11 +525,21 @@ input[type=button] {
   .footer-content {
     display: flex;
     justify-content: space-between;
-}
+  }
 
   .copyright {
     text-align: center;
-}
+  }
+
+  /* HOME - HERO AREA */
+  .hero-area h1 {
+    font-size: 3em;
+  }
+
+  .hero-area {
+    min-height: 650px;
+  }
+
 
   /* HOME - EMAIL SIGNUP */
   aside .content-wrapper {
@@ -511,6 +547,14 @@ input[type=button] {
     justify-content: space-between;
     flex-flow: row;
     margin: 50PX 0;
+  }
+
+   aside h3 {
+    font-size: 1.5em;
+  }
+
+  aside p {
+    font-size: .875em;
   }
 
   .form,
@@ -526,6 +570,10 @@ input[type=button] {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
+
+  .features h2 {
+    font-size: 2.25em;
+  }
     
   .features .features-item-description {
      width: 50%;
@@ -539,6 +587,24 @@ input[type=button] {
   .reviews article div {
     width: 49%;
   }
+
+  .reviews h2 {
+    font-size: 2.25em;
+  }
+
+  .reviews h3 {
+    font-size: 1.55em;
+  }
+
+  .reviews p {
+    font-size: .875em;
+  }
+
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
+
   /* ABOUT - MISSION */
   .mission-content {
     display: flex;
@@ -606,6 +672,7 @@ input[type=button] {
   .reviews article div {
     width: 42%;
   }
+}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),

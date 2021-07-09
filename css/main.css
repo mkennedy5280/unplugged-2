@@ -484,7 +484,7 @@ input[type=button] {
    ========================================================================== */
 
 /* Tablet styles */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width:768px) {
  
   .content-wrapper {
     max-width: 640px;
@@ -511,10 +511,6 @@ input[type=button] {
 
   header figure {
     width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
   }
 
   .header-divider {
@@ -642,15 +638,25 @@ input[type=button] {
 }
 
 /* Desktop styles */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
 
   .content-wrapper {
     max-width: 960px;
   }
 
+  header figure {
+    width: 25%;
+  }
+
   /* Hero */
+
+  .hero-area {
+    min-height: 750px;
+  }
+
   .hero-area h1 {
-    width: 60%;
+    width: 70%;
+    font-size: 3.75em;
   }
 
   /* Aside */
@@ -675,9 +681,9 @@ input[type=button] {
   
   /* Reviews */
   .reviews article div {
-    width: 42%;
+    width: 43%;
   }
-  
+
 }
 
 @media print,

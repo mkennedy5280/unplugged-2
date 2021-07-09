@@ -225,6 +225,8 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/woman-walking-on-bridge-in-forest.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -276,6 +278,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/group-eating-breakfast-on-ground.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 

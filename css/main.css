@@ -528,6 +528,7 @@ input[type=button] {
     display: none;
   }
 
+
   /* FOOTER */
   .footer-content {
     display: flex;
@@ -628,6 +629,15 @@ input[type=button] {
     width: 45%;
   }
 
+  /* ABOUT - MAP */
+
+  .map figure {
+    position: relative;
+    padding-bottom: 45%;
+    height: 0;
+    overflow: hidden;
+  }
+
   /* ABOUT - CONTACT */
   .contact-content {
     display: flex;
@@ -662,7 +672,7 @@ input[type=button] {
   /* Hero */
 
   .hero-area {
-    min-height: 750px;
+    min-height: 800px;
   }
 
   .hero-area h1 {
@@ -693,6 +703,14 @@ input[type=button] {
   /* Reviews */
   .reviews article div {
     width: 43%;
+  }
+
+  /* ABOUT - MAP */
+  .map figure {
+    position: relative;
+    padding-bottom: 37%;
+    height: 0;
+    overflow: hidden;
   }
 
 }

@@ -318,6 +318,11 @@ input[type=button] {
     margin: 30px 0;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /* ---------- HOME - REVIEWS ---------- */
 
 .reviews {

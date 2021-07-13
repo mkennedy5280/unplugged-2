@@ -115,6 +115,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  line-height: 1.2;
 }
  
 h3, 
@@ -126,7 +127,7 @@ h4 {
 }
  
 p {
-  font-size: 1.125em;
+  font-size: 0.875em;
   line-height: 1.285;
 }
  
@@ -222,10 +223,6 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-footer .contact p {
-  font-size: 0.875em;
-}
-
 footer .social {
   flex-basis:  25%;
 }
@@ -252,10 +249,6 @@ footer .social-icons p i {
 
 footer .copyright {
   margin:  20px 0;
-}
-
-footer .copyright p {
-  font-size: 0.875em;
 }
 
 /* ---------- HOME - HERO ---------- */
@@ -314,7 +307,6 @@ aside .content-wrapper {
 }
 
 aside p {
-    font-size: 0.875em;
     margin-bottom: 45px;
 }
 
@@ -328,11 +320,9 @@ aside p {
   background-size: cover;
 }
 
-
 .features p {
   margin: 0;
   text-align: center;
-  font-size: .875em;
 }
 
 .features-items {
@@ -369,10 +359,6 @@ aside p {
 .reviews h3 {
   width: 52%;
   margin: 20px 0;
-}
-
-.reviews p {
-  font-size: 0.875em;
 }
 
 /* ---------- ABOUT - MISSION ---------- */
@@ -450,7 +436,6 @@ aside p {
 }
 
 .faq p {
-  font-size: 0.875em;
   margin: 0;
   line-height: 18px;
 }

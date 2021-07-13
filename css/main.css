@@ -728,8 +728,34 @@ aside p {
     max-width: 960px;
   }
 
+  p {
+    font-size: 1.125em;
+  }
+
   header figure {
     width: 25%;
+  }
+
+  footer .social {
+    flex-basis:  35%;
+  }
+
+  footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social-icons p i {
+    font-size: 0.875em;
+  }
+
+  footer h4 {
+    font-size: 1.875em;
   }
 
   /* Hero */
@@ -768,6 +794,14 @@ aside p {
     width: 43%;
   }
 
+  .reviews h2 {
+    margin: 0 0 50px 0;
+  }
+
+ .reviews article figure, .reviews article div {
+    width: 49%;
+  }
+
   /* ABOUT - MAP */
   .map figure {
     position: relative;
@@ -776,6 +810,10 @@ aside p {
     overflow: hidden;
   }
 
+  /* FAQ */
+  .faq h2 {
+    font-size: 3em;
+  }
 }
 
 @media print,

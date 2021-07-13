@@ -435,14 +435,27 @@ aside p {
   flex-flow: row wrap;
 }
 
+.faq-content {
+  margin-bottom: 45px;
+}
+
 .faq h2 {
   margin-bottom: 40px;
   line-height: 1;
 }
 
-.faq-content {
-  margin-bottom: 50px;
+.faq h4 {
+  margin: 0 0 10px 0;
+  line-height: 24px;
 }
+
+.faq p {
+  font-size: 0.875em;
+  margin: 0;
+  line-height: 18px;
+}
+
+
 
 /* ==========================================================================
    Helper classes

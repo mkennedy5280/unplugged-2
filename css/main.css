@@ -222,6 +222,10 @@ footer .contact {
   margin-bottom: 50px;
 }
 
+footer .contact p {
+  font-size: 0.875em;
+}
+
 footer .social {
   flex-basis:  25%;
 }
@@ -250,6 +254,10 @@ footer .copyright {
   margin:  20px 0;
 }
 
+footer .copyright p {
+  font-size: 0.875em;
+}
+
 /* ---------- HOME - HERO ---------- */
 
 .hero-area {
@@ -259,7 +267,7 @@ footer .copyright {
   background: url('../img/woman-walking-on-bridge-in-forest.jpg');
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .hero-area h1 {
@@ -299,6 +307,15 @@ input[type=button] {
   border: none;
   text-align: center;
   text-transform: uppercase;
+}
+
+aside .content-wrapper {
+  margin-top: 0;
+}
+
+aside p {
+    font-size: 0.875em;
+    margin-bottom: 45px;
 }
 
 /* ---------- HOME - FEATURES ---------- */
@@ -352,6 +369,10 @@ input[type=button] {
 .reviews h3 {
   width: 52%;
   margin: 20px 0;
+}
+
+.reviews p {
+  font-size: 0.875em;
 }
 
 /* ---------- ABOUT - MISSION ---------- */
